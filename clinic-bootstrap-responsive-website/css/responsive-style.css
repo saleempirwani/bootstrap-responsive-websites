@@ -3,6 +3,13 @@
   .card {
     padding: 2.5rem 1.875rem;
   }
+
+  /* header */
+  .headerWrapper .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+  /* top */
 }
 
 @media (max-width: 991px) {
@@ -45,27 +52,44 @@
   .card {
     padding: 1.875rem 1rem;
   }
+
+  /* Navbar */
+  .header-scrolled {
+    height: auto;
+  }
+
+  .headerWrapper .menu-navbar-nav {
+    text-align: center;
+  }
+
+  .headerWrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
+  }
+
+  .bannerWrapper p {
+    max-width: 100%;
+  }
 }
 
+@media (max-width: 767px) {
+  /* custom css */
+  .wrapper {
+    padding: 3.125rem 0;
+  }
 
-@media (max-width:767px){
+  .mainBtn {
+    font-size: 0.875rem;
+  }
 
-    /* custom css */
-    .wrapper {
-        padding: 3.125rem 0;
-      }
-    
-      .mainBtn {
-        font-size: 0.875rem;
-      }
-    
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 2.5rem;
-      }
-    
-      h5 {
-        font-size: 1.25rem;
-      }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
 
+  h5 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 360px) {
 }
