@@ -1,0 +1,27 @@
+.cont1 {
+  border: 3px solid green;
+}
+
+.contFluid1 {
+  border: 3px solid red;
+}
+
+.box1 {
+  background-color: pink;
+  height: 250px;
+}
+
+.box2 {
+  background-color: orange;
+  height: 250px;
+}
+
+.box3 {
+  background-color: lightgreen;
+  height: 250px;
+}
+
+.box4 {
+  background-color: skyblue;
+  height: 250px;
+}
