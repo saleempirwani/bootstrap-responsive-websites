@@ -1,0 +1,71 @@
+@media (max-width: 1199.5px) {
+  /* custom css */
+  .card {
+    padding: 2.5rem 1.875rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* custom css */
+
+  .wrapper {
+    padding: 3.125rem 0;
+  }
+
+  .mainBtn {
+    font-size: 0.875rem;
+  }
+
+  h1 {
+    font-size: 2.8125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.5625rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.35rem;
+  }
+
+  .card {
+    padding: 1.875rem 1rem;
+  }
+}
+
+
+@media (max-width:767px){
+
+    /* custom css */
+    .wrapper {
+        padding: 3.125rem 0;
+      }
+    
+      .mainBtn {
+        font-size: 0.875rem;
+      }
+    
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+      }
+    
+      h5 {
+        font-size: 1.25rem;
+      }
+
+}
