@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;900&display=swap");
+
+:root {
+  --color-orange: #da722c;
+  --color-blue: #057ada;
+  --color-light: #e8f7fb;
+  --color-dark-blue: #023047;
+  --color-black: #070917;
+  --color-purple: #6f7dfb;
+  --font-poppins: "Poppins", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+
+.navbar-brand {
+  font-family: var(--font-raleway);
+  font-weight: 900;
+  font-size: 40px;
+  color: var(--color-light) !important;
+}
+
+.header {
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+}
+
+.nav-link {
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  color: var(--color-light) !important;
+  padding: 12px;
+  margin: 0 30px;
+}
+
+.btn-blue {
+  background-color: var(--color-dark-blue);
+  border-radius: 24px;
+}
+
+h1 {
+  font-family: var(--font-raleway);
+  font-weight: 900;
+  font-size: 50px;
+  color: var(--color-light);
+  margin-bottom: 18px;
+}
+
+p {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-light);
+  margin-bottom: 30px;
+}
+
+.btn-orange {
+  background-color: var(--color-orange);
+  border-radius: 24px;
+  padding: 16px 32px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-text {
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  color: var(--color-light) !important;
+}
+
+.course-container {
+  border-radius: 24px;
+  padding: 10px 20px;
+}
+
+.course-heading {
+  font-family: var(--font-raleway);
+  font-weight: 900;
+  font-size: 30px;
+  color: var(--color-dark-blue);
+}
+
+.course-time {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--color-dark-blue);
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    font-size: 36px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn-orange {
+    padding: 8px 32px;
+  }
+}
