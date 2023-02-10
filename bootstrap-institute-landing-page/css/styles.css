@@ -11,6 +11,11 @@
   --font-raleway: "Raleway", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -74,9 +79,23 @@ p {
   color: var(--color-light) !important;
 }
 
+.test-h1 {
+  color: var(--color-dark-blue);
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.test-p {
+  color: var(--color-dark-blue);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .course-container {
   border-radius: 24px;
-  padding: 10px 20px;
+  padding: 0px 20px;
 }
 
 .course-heading {
@@ -94,7 +113,80 @@ p {
   color: var(--color-dark-blue);
 }
 
+.app-section h1 {
+  color: var(--color-dark-blue);
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.app-section > p {
+  color: var(--color-dark-blue);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.appText {
+  color: var(--color-light);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact-title {
+  color: var(--color-orange);
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+}
+
+.contact-text {
+  color: var(--color-light);
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 16px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.input-cont {
+  padding: 3px;
+  background: var(--color-light);
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  outline: none;
+  margin-right: 5px;
+}
+
+.input {
+  border: none;
+  background: var(--color-light);
+  padding: 0 10px;
+  flex: 0.7;
+}
+
+.sub-btn {
+  flex: 0.2;
+  background: var(--color-dark-blue);
+  padding: 8px 20px;
+  border-radius: 100px;
+  color: var(--color-light);
+}
+
 @media (max-width: 991px) {
+  .test-h1 {
+    font-size: 40px;
+  }
+
+  .test-p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 575px) {
