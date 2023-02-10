@@ -20,8 +20,29 @@ a {
   text-decoration: none;
 }
 
-.navbar-toggler {
+.bg-orange {
+  background-color: var(--color-orange) !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.375rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-black);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-light);
+}
+
+.btn:focus,
+a:focus {
   outline: none;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
 }
 
 .navbar-brand {
@@ -91,6 +112,42 @@ p {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
+}
+
+.test-card-main {
+  background-color: var(--color-light);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+.test-card-top {
+  padding: 3px 20px;
+  padding-bottom: 0;
+  background-color: var(--color-purple);
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.test-detail h1 {
+  color: var(--color-dark-blue);
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.test-detail p {
+  color: var(--color-dark-blue);
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.test-detail img {
+  margin-top: -50px;
+  object-fit: contain;
 }
 
 .course-container {
