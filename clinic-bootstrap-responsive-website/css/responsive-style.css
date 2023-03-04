@@ -9,7 +9,18 @@
     font-size: 1rem;
   }
 
-  /* top */
+  /* top banner */
+  .bannerWrapper .animateImg .aimg1 {
+    left: -3.125rem;
+  }
+
+  .aboutWrapper .card {
+    width: 100%;
+  }
+
+  .aboutWrapper .aboutAnimate {
+    left: 0.9375rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -69,6 +80,16 @@
   .bannerWrapper p {
     max-width: 100%;
   }
+
+  .aboutWrapper .aboutClinic:nth-child(1),
+  .aboutWrapper .aboutClinic:nth-child(2) {
+    margin-bottom: 1.5625rem;
+  }
+
+  .aboutWrapper .aboutClinic:nth-child(2),
+  .aboutWrapper .aboutClinic:nth-child(4) {
+    padding-left: 2.375rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -89,7 +110,23 @@
   h5 {
     font-size: 1.25rem;
   }
+
+  .aboutWrapper .aboutAnimate {
+    width: 8rem;
+  }
 }
 
 @media (max-width: 360px) {
+  .aboutWrapper .aboutAnimate {
+    width: 6.875rem;
+  }
+
+  .aboutWrapper .card {
+    padding: 1.25rem 0.3125rem;
+  }
+
+  .aboutWrapper .aboutClinic:nth-child(2),
+  .aboutWrapper .aboutClinic:nth-child(4) {
+    padding-left: 0.625rem;
+  }
 }

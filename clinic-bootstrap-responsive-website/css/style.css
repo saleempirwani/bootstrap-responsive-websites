@@ -107,7 +107,7 @@ h4 {
   font-size: 1.5rem;
   line-height: 2.25rem;
   font-weight: 600;
-  color: var(--text-white);
+  color: var(--text-black);
   font-family: var(--secondary-font);
 }
 
@@ -144,7 +144,7 @@ p {
   border: 0;
 }
 
-@keyframes movebounce {
+@keyframes moveBounce {
   0% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -206,7 +206,7 @@ p {
 
 /* Banner */
 .bannerWrapper {
-  background-image: url("../images/topBanner/bannerImg.jpeg");
+  background-image: url("../images/top-banner-img/Top-banner.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -215,6 +215,60 @@ p {
 .bannerWrapper p {
   max-width: 80%;
   color: var(--text-white);
+  font-family: var(--primary-font);
+}
+
+.bannerWrapper .topRightSec {
+  position: relative;
+  background-image: url("../images/top-banner-img/top-right-bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bannerWrapper .animateImg {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 22;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+}
+
+.bannerWrapper .animateImg .aimg1 {
+  position: absolute;
+  left: -5.6875rem;
+  animation-name: moveBounce;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 100ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: moveBounce;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 100ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+
+.bannerWrapper .animateImg .aimg2 {
+  margin-left: 5.5rem;
+  animation-name: moveBounce;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 200ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-name: moveBounce;
+  -webkit-animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 200ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
 }
 
 .home .card:hover {
@@ -225,4 +279,55 @@ p {
 .home .icon-box {
   text-align: center;
   margin: 0 auto 2.5rem;
+}
+
+.aboutWrapper h2 {
+  color: var(--text-black);
+}
+
+.aboutWrapper .card {
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aboutWrapper .aboutClinic {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.aboutWrapper .aboutClinic:nth-child(1),
+.aboutWrapper .aboutClinic:nth-child(2) {
+  margin-bottom: 2.8125rem;
+}
+
+.aboutWrapper .aboutClinic:nth-child(2),
+.aboutWrapper .aboutClinic:nth-child(4) {
+  padding-left: 3.75rem;
+}
+
+.aboutWrapper .line1,
+.aboutWrapper .line2 {
+  content: "";
+  background-color: var(--bg-dark);
+  width: 0.0313rem;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutWrapper .line2 {
+  width: 100%;
+  height: 0.0625rem;
+}
+
+.aboutWrapper .aboutAnimate {
+  position: absolute;
+  left: -2.5rem;
+  bottom: 0;
+  animation: moveBounce 3s linear infinite;
+  -webkit-animation: moveBounce 3s linear infinite;
 }
