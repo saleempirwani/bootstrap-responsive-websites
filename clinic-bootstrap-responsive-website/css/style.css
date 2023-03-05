@@ -433,3 +433,102 @@ p {
   background-color: var(--bg-light-blue);
   padding: 2.5rem;
 }
+
+/* Footer */
+.footerWrapper {
+  background-color: var(--primary-color);
+  padding-bottom: 0;
+}
+
+.footerWrapper h5 {
+  color: var(--text-white);
+}
+
+.footerWrapper .contactInfo ul a {
+  padding: 0;
+}
+
+.footerWrapper ul li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+  font-size: 0.875rem;
+}
+
+.footerWrapper ul li a,
+.footerWrapper p {
+  color: var(--text-white);
+  font-size: 0.875rem;
+  padding-left: 1.5rem;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.footerWrapper ul li a::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.footerWrapper .linkWidget li a:hover {
+  margin-left: 0.625rem;
+  color: var(--secondary-color);
+}
+
+.footerWrapper .socialNetwork a {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  margin: 0.5rem;
+  line-height: 2rem;
+  font-size: 0.875rem;
+  display: inline-block;
+  border: 0.125rem solid var(--bg-light-blue);
+  color: var(--text-light);
+  text-align: center;
+  border-radius: 100%;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding-left: 0;
+}
+
+.footerWrapper .socialNetwork a::before {
+  content: "";
+}
+
+.footerWrapper .socialNetwork a:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-white);
+  transform: translateY(-0.1875rem);
+  -webkit-transform: translateY(-0.1875rem);
+}
+
+.footerWrapper ::placeholder {
+  color: var(--text-light);
+}
+
+.footerWrapper .form-control {
+  color: var(--text-light);
+}
+
+.footerWrapper .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--bg-white);
+}
+
+.footerWrapper .copyrightSection {
+  background-color: var(--bg-light-blue);
+  padding: 2rem 0 1rem;
+  text-align: center;
+}
+
+.footerWrapper .copyrightSection a {
+  color: var(--text-white);
+  font-weight: 600;
+}

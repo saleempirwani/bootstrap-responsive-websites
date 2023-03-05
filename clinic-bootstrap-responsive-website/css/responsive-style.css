@@ -102,6 +102,10 @@
   .blogWrapper .blogContent {
     padding: 1.875rem 0.625rem;
   }
+
+  .footerWrapper {
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -133,6 +137,14 @@
 
   .blogWrapper .blogContent {
     margin: 0;
+  }
+
+  .footerWrapper {
+    padding-bottom: 0;
+  }
+
+  .footerWrapper > div {
+    padding: 0 1.875rem;
   }
 }
 
