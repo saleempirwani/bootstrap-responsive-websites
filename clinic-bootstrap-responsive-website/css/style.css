@@ -332,6 +332,8 @@ p {
   -webkit-animation: moveBounce 3s linear infinite;
 }
 
+/* Services */
+
 .servicesWrapper {
   background-color: var(--primary-color);
 }
@@ -356,4 +358,47 @@ p {
 
 .servicesWrapper .iconBox {
   margin-bottom: 1.875rem;
+}
+
+/* Team */
+
+.teamWrapper .card {
+  padding: 1.25rem;
+}
+
+.teamWrapper .card:hover {
+  transform: translateY(-0.625rem);
+  -webkit-transform: translateY(-0.625rem);
+}
+
+.teamWrapper .teamImg {
+  margin: 0 auto;
+}
+
+.teamWrapper .teamInfo .socialNetwork {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  padding: 0.625rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamWrapper .teamInfo .socialNetwork li a {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  display: block;
+  border-radius: 0.3125rem;
+  margin: 0 0.3125rem;
+  font-size: 0.75rem;
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.teamWrapper .teamInfo .socialNetwork li a:hover {
+  background-color: var(--secondary-color);
 }
