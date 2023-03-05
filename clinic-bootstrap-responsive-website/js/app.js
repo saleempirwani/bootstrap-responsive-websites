@@ -4,7 +4,6 @@ window.onscroll = function () {
     nav.classList.add("headerScrolled");
   } else {
     nav.classList.remove("headerScrolled");
-    console.log("sadfsdfsff");
   }
 };
 
