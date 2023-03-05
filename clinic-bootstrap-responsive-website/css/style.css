@@ -414,3 +414,22 @@ p {
 .galleryWrapper img {
   border-radius: 0.9375rem;
 }
+
+/* Testimonials */
+.testimonialWrapper .card {
+  background-color: rgba(252, 81, 133, 0.05);
+}
+
+/* Appointment  */
+.appointmentWrapper {
+  background-image: url("../images/appointmnet-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Blog */
+.blogWrapper .blogContent {
+  background-color: var(--bg-light-blue);
+  padding: 2.5rem;
+}
