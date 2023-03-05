@@ -276,7 +276,7 @@ p {
   transform: translateY(-0.625rem);
 }
 
-.home .icon-box {
+.home .iconBox {
   text-align: center;
   margin: 0 auto 2.5rem;
 }
@@ -330,4 +330,30 @@ p {
   bottom: 0;
   animation: moveBounce 3s linear infinite;
   -webkit-animation: moveBounce 3s linear infinite;
+}
+
+.servicesWrapper {
+  background-color: var(--primary-color);
+}
+
+.servicesWrapper .card {
+  background-color: transparent;
+  border: 0.0625rem solid var(--bg-light-blue);
+  box-shadow: none;
+  padding: 2.5rem;
+}
+
+.servicesWrapper .card:hover {
+  background-color: var(--bg-light-blue);
+  cursor: cell;
+  border-color: transparent;
+}
+
+.servicesWrapper .card h4,
+.servicesWrapper .card p {
+  color: var(--text-white);
+}
+
+.servicesWrapper .iconBox {
+  margin-bottom: 1.875rem;
 }

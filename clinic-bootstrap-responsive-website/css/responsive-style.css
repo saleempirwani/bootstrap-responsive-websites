@@ -21,6 +21,10 @@
   .aboutWrapper .aboutAnimate {
     left: 0.9375rem;
   }
+
+  .servicesWrapper .card {
+    padding: 1.875rem 1.25rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -90,6 +94,10 @@
   .aboutWrapper .aboutClinic:nth-child(4) {
     padding-left: 2.375rem;
   }
+
+  .servicesWrapper .card {
+    padding: 1.875rem 0.875rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -114,6 +122,10 @@
   .aboutWrapper .aboutAnimate {
     width: 8rem;
   }
+
+  .servicesWrapper .card {
+    text-align: center;
+  }
 }
 
 @media (max-width: 360px) {
@@ -128,5 +140,9 @@
   .aboutWrapper .aboutClinic:nth-child(2),
   .aboutWrapper .aboutClinic:nth-child(4) {
     padding-left: 0.625rem;
+  }
+
+  .servicesWrapper .iconBox {
+    margin-bottom: 0.9375rem;
   }
 }
